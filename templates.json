@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "project": "Aetherium Archivist - templates",
+    "version": "0.1",
+    "notes": "Stage 1.1 templates: phonemes, glyph radicals, meanings, grammar options, room & artifact templates, story templates, and a few generator hints."
+  },
+  "generator_hints": {
+    "default_lexicon_size": 30,
+    "rosetta_critical_count": 6,
+    "glyph_radicals_per_glyph": 2,
+    "min_artifacts": 8,
+    "max_artifacts": 18
+  },
+  "phonemes": [
+    "ka", "mu", "si", "ta", "or", "le", "zu", "ri", "na", "ho", "em", "q'"
+  ],
+  "glyph_radicals": [
+    "╬", "ᚠ", "◈", "✦", "▒", "◆", "∴", "▣", "✺", "⌖", "▦", "◐"
+  ],
+  "meanings": [
+    "hunt", "deer", "spear", "temple", "light", "water", "death", "life",
+    "sky", "earth", "fire", "trade", "war", "peace", "leader", "child",
+    "machine", "memory", "archive", "song", "star", "ship", "gate", "seed",
+    "plague", "medicine", "stone", "language", "faith", "clock"
+  ],
+  "grammar_options": [
+    {
+      "name": "SOV-suffixing",
+      "word_order": "SOV",
+      "morphology": "agglutinative",
+      "affix_position": "suffix",
+      "notes": "Subjects before objects; case/tense expressed with suffixes."
+    },
+    {
+      "name": "SVO-prefixing",
+      "word_order": "SVO",
+      "morphology": "analytic",
+      "affix_position": "prefix",
+      "notes": "More isolating; order carries more meaning than morphology."
+    },
+    {
+      "name": "VSO-mixed",
+      "word_order": "VSO",
+      "morphology": "fusional",
+      "affix_position": "mixed",
+      "notes": "Verb-initial; single affixes may encode multiple features."
+    }
+  ],
+  "room_templates": [
+    "A vast, silent chamber. A crumbling [altar] stands in the center; strange glyphs cover the northern wall.",
+    "A narrow archive corridor lined with cracked [shelves] and scattered clay tablets.",
+    "A domed hall with a collapsed skylight. Faded murals depict [rituals] beneath looping glyph bands.",
+    "A flooded archive: shallow water laps at stone [pedestals] with floating seals and tablets.",
+    "A cramped workshop cluttered with rusted [machines] and fragments of inscribed plates.",
+    "An observatory with a broken lens and a mosaic floor showing constellations and unknown [stars].",
+    "A sealed vault chamber. A heavy stone [door] is scored with repeated glyphs and a single central sigil.",
+    "A quiet shrine alcove where offerings of polished stones sit before a carved [idol] marked with delicate glyph lines."
+  ],
+  "artifact_templates": [
+    {
+      "type": "tablet",
+      "has_image": true,
+      "clue_strength": "high",
+      "image_elements": ["object", "action"],
+      "inscription_template": "[SUBJ] [VERB] [OBJ]",
+      "notes": "Good for pictorial pairing: image shows an object and an action — inscription mirrors order."
+    },
+    {
+      "type": "disk",
+      "has_image": false,
+      "clue_strength": "medium",
+      "image_elements": [],
+      "inscription_template": "[VERB] [OBJ]",
+      "notes": "Short functionary label; often used for ritual labels or item tags."
+    },
+    {
+      "type": "mural",
+      "has_image": true,
+      "clue_strength": "medium",
+      "image_elements": ["scene", "figure", "symbol"],
+      "inscription_template": "[OBJ] [GENITIVE] [MOD]",
+      "notes": "Narrative artwork with longer inscriptions; good for repeated tokens."
+    },
+    {
+      "type": "seal",
+      "has_image": true,
+      "clue_strength": "low",
+      "image_elements": ["symbol"],
+      "inscription_template": "[NOUN]",
+      "notes": "Short symbolic token — high frequency but low single-clue value."
+    },
+    {
+      "type": "log_scroll",
+      "has_image": false,
+      "clue_strength": "high",
+      "image_elements": [],
+      "inscription_template": "[SENTENCE]+",
+      "notes": "Longer multi-sentence inscriptions; can include first-person accounts or propaganda."
+    },
+    {
+      "type": "statuette_base",
+      "has_image": true,
+      "clue_strength": "medium",
+      "image_elements": ["figure", "object"],
+      "inscription_template": "[NAME] [TITLE]",
+      "notes": "Often names people/roles; useful for building faction & leader vocab."
+    }
+  ],
+  "story_templates": [
+    {
+      "arc": "Golden Age → Experimentation → Collapse",
+      "events": ["Golden Age of knowledge and illumination", "Experimental expansion into machines/memory projects", "Catastrophic collapse (environmental or self-inflicted)"]
+    },
+    {
+      "arc": "Expansion → Conquest → Rot",
+      "events": ["Rapid spatial expansion and colony founding", "Warfare and domination of neighboring cultures", "Internal rot: disease or resource exhaustion"]
+    },
+    {
+      "arc": "Peaceful Philosophy → Schism → Plague",
+      "events": ["Long era of philosophical schools and archives", "Ideological schism creates rival factions", "A plague or memory-failure event decimates population"]
+    },
+    {
+      "arc": "Trade Network → Resource Crash → Exodus",
+      "events": ["Thriving trade network and star-ship builders", "Resource depletion and economic collapse", "An exodus attempt / ark construction"]
+    },
+    {
+      "arc": "Machine Ascendancy → Ritualization → Silence",
+      "events": ["Machines integrated into society", "Machines acquire ritual significance", "The culture goes mysteriously silent; machines persist"]
+    },
+    {
+      "arc": "Religious Flourish → Purge → Forgetting",
+      "events": ["Religious institutions central to daily life", "Purges of dissenters, carving propaganda into stones", "A cultural forgetting as records are lost or encoded"]
+    }
+  ],
+  "difficulty_presets": {
+    "easy": {
+      "clue_density_multiplier": 1.6,
+      "noise_ratio": 0.1,
+      "hint_tokens": 5
+    },
+    "normal": {
+      "clue_density_multiplier": 1.0,
+      "noise_ratio": 0.2,
+      "hint_tokens": 3
+    },
+    "hard": {
+      "clue_density_multiplier": 0.7,
+      "noise_ratio": 0.35,
+      "hint_tokens": 1
+    }
+  }
+}
