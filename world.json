@@ -1,0 +1,180 @@
+{
+  "seed": 1760588945,
+  "grammar": {
+    "name": "SVO-prefixing",
+    "word_order": "SVO",
+    "morphology": "analytic",
+    "affix_position": "prefix",
+    "notes": "More isolating; order carries more meaning than morphology."
+  },
+  "lexicon": {
+    "0": {
+      "form": "q'or",
+      "glyph": "\u25a6\u25d0",
+      "meaning": "language"
+    },
+    "1": {
+      "form": "narior",
+      "glyph": "\u25a6\u16a0",
+      "meaning": "leader"
+    },
+    "2": {
+      "form": "leoror",
+      "glyph": "\u25c6\u25c6",
+      "meaning": "medicine"
+    },
+    "3": {
+      "form": "rina",
+      "glyph": "\u25a3\u25c6",
+      "meaning": "clock"
+    },
+    "4": {
+      "form": "oremor",
+      "glyph": "\u256c\u2316",
+      "meaning": "temple"
+    },
+    "5": {
+      "form": "muho",
+      "glyph": "\u2234\u2316",
+      "meaning": "song"
+    },
+    "6": {
+      "form": "zuri",
+      "glyph": "\u2592\u256c",
+      "meaning": "trade"
+    },
+    "7": {
+      "form": "nasizu",
+      "glyph": "\u2592\u25c6",
+      "meaning": "ship"
+    },
+    "8": {
+      "form": "emzu",
+      "glyph": "\u25d0\u16a0",
+      "meaning": "plague"
+    },
+    "9": {
+      "form": "ororka",
+      "glyph": "\u2726\u256c",
+      "meaning": "memory"
+    },
+    "10": {
+      "form": "q'muri",
+      "glyph": "\u256c\u25c6",
+      "meaning": "water"
+    },
+    "11": {
+      "form": "risior",
+      "glyph": "\u273a\u25d0",
+      "meaning": "death"
+    },
+    "12": {
+      "form": "rileq'",
+      "glyph": "\u2726\u25c6",
+      "meaning": "peace"
+    },
+    "13": {
+      "form": "riem",
+      "glyph": "\u273a\u16a0",
+      "meaning": "life"
+    },
+    "14": {
+      "form": "leho",
+      "glyph": "\u2592\u2726",
+      "meaning": "faith"
+    },
+    "15": {
+      "form": "emzuq'",
+      "glyph": "\u25d0\u25a3",
+      "meaning": "archive"
+    },
+    "16": {
+      "form": "zutari",
+      "glyph": "\u16a0\u256c",
+      "meaning": "light"
+    },
+    "17": {
+      "form": "katasi",
+      "glyph": "\u25c6\u273a",
+      "meaning": "hunt"
+    },
+    "18": {
+      "form": "rika",
+      "glyph": "\u25d0\u2316",
+      "meaning": "star"
+    },
+    "19": {
+      "form": "lena",
+      "glyph": "\u25a6\u25a6",
+      "meaning": "war"
+    },
+    "20": {
+      "form": "kaq'em",
+      "glyph": "\u273a\u25c6",
+      "meaning": "machine"
+    },
+    "21": {
+      "form": "mumumu",
+      "glyph": "\u25c8\u25a3",
+      "meaning": "gate"
+    },
+    "22": {
+      "form": "zusi",
+      "glyph": "\u256c\u25a6",
+      "meaning": "seed"
+    },
+    "23": {
+      "form": "tasi",
+      "glyph": "\u2316\u25a6",
+      "meaning": "deer"
+    },
+    "24": {
+      "form": "tanazu",
+      "glyph": "\u25c6\u16a0",
+      "meaning": "child"
+    },
+    "25": {
+      "form": "lele",
+      "glyph": "\u256c\u16a0",
+      "meaning": "earth"
+    },
+    "26": {
+      "form": "q'zu",
+      "glyph": "\u2726\u16a0",
+      "meaning": "stone"
+    },
+    "27": {
+      "form": "hota",
+      "glyph": "\u16a0\u25a3",
+      "meaning": "spear"
+    },
+    "28": {
+      "form": "tata",
+      "glyph": "\u256c\u2234",
+      "meaning": "sky"
+    },
+    "29": {
+      "form": "letaem",
+      "glyph": "\u2592\u16a0",
+      "meaning": "fire"
+    }
+  },
+  "ruins": [
+    {
+      "id": 0,
+      "description": "A domed hall with a collapsed skylight. Faded murals depict [rituals] beneath looping glyph bands."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 0,
+      "type": "statuette_base",
+      "location": 0,
+      "inscription": [
+        16,
+        11,
+        10
+      ]
+    }
+  ]
+}
