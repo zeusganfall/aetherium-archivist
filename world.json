@@ -1,0 +1,179 @@
+{
+  "seed": 1760589751,
+  "grammar": {
+    "name": "SVO-prefixing",
+    "word_order": "SVO",
+    "morphology": "analytic",
+    "affix_position": "prefix",
+    "notes": "More isolating; order carries more meaning than morphology."
+  },
+  "lexicon": {
+    "0": {
+      "form": "lena",
+      "glyph": "ᚠ▦",
+      "meaning": "ship"
+    },
+    "1": {
+      "form": "muor",
+      "glyph": "◈ᚠ",
+      "meaning": "trade"
+    },
+    "2": {
+      "form": "emmuor",
+      "glyph": "◐▣",
+      "meaning": "faith"
+    },
+    "3": {
+      "form": "rimuka",
+      "glyph": "⌖ᚠ",
+      "meaning": "language"
+    },
+    "4": {
+      "form": "rior",
+      "glyph": "╬ᚠ",
+      "meaning": "stone"
+    },
+    "5": {
+      "form": "muemho",
+      "glyph": "╬⌖",
+      "meaning": "death"
+    },
+    "6": {
+      "form": "q'rita",
+      "glyph": "◈◆",
+      "meaning": "star"
+    },
+    "7": {
+      "form": "muri",
+      "glyph": "▒◈",
+      "meaning": "sky"
+    },
+    "8": {
+      "form": "tata",
+      "glyph": "✺◈",
+      "meaning": "peace"
+    },
+    "9": {
+      "form": "q'emta",
+      "glyph": "▣✺",
+      "meaning": "hunt"
+    },
+    "10": {
+      "form": "letaor",
+      "glyph": "◐⌖",
+      "meaning": "life"
+    },
+    "11": {
+      "form": "orzuem",
+      "glyph": "∴✦",
+      "meaning": "spear"
+    },
+    "12": {
+      "form": "q'muq'",
+      "glyph": "⌖◈",
+      "meaning": "leader"
+    },
+    "13": {
+      "form": "orho",
+      "glyph": "▦╬",
+      "meaning": "child"
+    },
+    "14": {
+      "form": "q'naem",
+      "glyph": "╬▣",
+      "meaning": "earth"
+    },
+    "15": {
+      "form": "q'hoq'",
+      "glyph": "ᚠ◆",
+      "meaning": "medicine"
+    },
+    "16": {
+      "form": "siho",
+      "glyph": "▒▒",
+      "meaning": "temple"
+    },
+    "17": {
+      "form": "emta",
+      "glyph": "✦▣",
+      "meaning": "deer"
+    },
+    "18": {
+      "form": "ormuka",
+      "glyph": "◆◆",
+      "meaning": "war"
+    },
+    "19": {
+      "form": "sizuem",
+      "glyph": "╬▒",
+      "meaning": "song"
+    },
+    "20": {
+      "form": "muzu",
+      "glyph": "∴◐",
+      "meaning": "archive"
+    },
+    "21": {
+      "form": "kanaor",
+      "glyph": "⌖∴",
+      "meaning": "machine"
+    },
+    "22": {
+      "form": "rikasi",
+      "glyph": "▒◆",
+      "meaning": "seed"
+    },
+    "23": {
+      "form": "leleq'",
+      "glyph": "◈✦",
+      "meaning": "water"
+    },
+    "24": {
+      "form": "orle",
+      "glyph": "▣▦",
+      "meaning": "clock"
+    },
+    "25": {
+      "form": "leka",
+      "glyph": "◈▣",
+      "meaning": "fire"
+    },
+    "26": {
+      "form": "lezu",
+      "glyph": "ᚠ✦",
+      "meaning": "gate"
+    },
+    "27": {
+      "form": "nari",
+      "glyph": "▒∴",
+      "meaning": "light"
+    },
+    "28": {
+      "form": "zuri",
+      "glyph": "✺ᚠ",
+      "meaning": "memory"
+    },
+    "29": {
+      "form": "zusi",
+      "glyph": "◐◐",
+      "meaning": "plague"
+    }
+  },
+  "ruins": [
+    {
+      "id": 0,
+      "description": "A vast, silent chamber. A crumbling [altar] stands in the center; strange glyphs cover the northern wall."
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 0,
+      "type": "log_scroll",
+      "location": 0,
+      "inscription": [
+        13,
+        21
+      ]
+    }
+  ]
+}
