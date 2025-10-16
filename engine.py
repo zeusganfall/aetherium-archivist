@@ -4,7 +4,7 @@ import time
 
 def load_templates(path="templates.json"):
     """Loads JSON data from the specified path."""
-    with open(path, 'r') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def generate_lexicon(templates, n=30):
@@ -90,8 +90,8 @@ def new_world(seed=None):
         "artifacts": artifacts
     }
 
-    with open("world.json", 'w') as f:
-        json.dump(world, f, indent=2)
+    with open("world.json", 'w', encoding='utf-8') as f:
+        json.dump(world, f, indent=2, ensure_ascii=False)
 
     return seed
 
