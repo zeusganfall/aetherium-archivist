@@ -1,5 +1,5 @@
 {
-  "seed": 1760589294,
+  "seed": 1760589751,
   "grammar": {
     "name": "SVO-prefixing",
     "word_order": "SVO",
@@ -9,171 +9,170 @@
   },
   "lexicon": {
     "0": {
-      "form": "tamu",
-      "glyph": "▒∴",
-      "meaning": "water"
+      "form": "lena",
+      "glyph": "ᚠ▦",
+      "meaning": "ship"
     },
     "1": {
-      "form": "hoq'",
-      "glyph": "╬✺",
-      "meaning": "death"
-    },
-    "2": {
-      "form": "riemzu",
-      "glyph": "ᚠ◈",
+      "form": "muor",
+      "glyph": "◈ᚠ",
       "meaning": "trade"
     },
+    "2": {
+      "form": "emmuor",
+      "glyph": "◐▣",
+      "meaning": "faith"
+    },
     "3": {
-      "form": "taq'si",
-      "glyph": "✦⌖",
-      "meaning": "child"
+      "form": "rimuka",
+      "glyph": "⌖ᚠ",
+      "meaning": "language"
     },
     "4": {
-      "form": "kaor",
-      "glyph": "∴⌖",
-      "meaning": "archive"
+      "form": "rior",
+      "glyph": "╬ᚠ",
+      "meaning": "stone"
     },
     "5": {
-      "form": "nalezu",
-      "glyph": "✦◈",
-      "meaning": "light"
+      "form": "muemho",
+      "glyph": "╬⌖",
+      "meaning": "death"
     },
     "6": {
-      "form": "muri",
-      "glyph": "ᚠ⌖",
-      "meaning": "fire"
+      "form": "q'rita",
+      "glyph": "◈◆",
+      "meaning": "star"
     },
     "7": {
-      "form": "leoror",
-      "glyph": "✺ᚠ",
-      "meaning": "peace"
+      "form": "muri",
+      "glyph": "▒◈",
+      "meaning": "sky"
     },
     "8": {
-      "form": "orlena",
-      "glyph": "∴▣",
-      "meaning": "clock"
+      "form": "tata",
+      "glyph": "✺◈",
+      "meaning": "peace"
     },
     "9": {
-      "form": "orem",
-      "glyph": "✺◐",
-      "meaning": "earth"
+      "form": "q'emta",
+      "glyph": "▣✺",
+      "meaning": "hunt"
     },
     "10": {
-      "form": "rina",
-      "glyph": "∴ᚠ",
+      "form": "letaor",
+      "glyph": "◐⌖",
       "meaning": "life"
     },
     "11": {
-      "form": "q'ho",
-      "glyph": "◐◈",
-      "meaning": "ship"
+      "form": "orzuem",
+      "glyph": "∴✦",
+      "meaning": "spear"
     },
     "12": {
-      "form": "q'si",
-      "glyph": "✦∴",
-      "meaning": "plague"
+      "form": "q'muq'",
+      "glyph": "⌖◈",
+      "meaning": "leader"
     },
     "13": {
-      "form": "zuzu",
-      "glyph": "◐◐",
-      "meaning": "temple"
+      "form": "orho",
+      "glyph": "▦╬",
+      "meaning": "child"
     },
     "14": {
-      "form": "q'ta",
-      "glyph": "◐◆",
-      "meaning": "faith"
+      "form": "q'naem",
+      "glyph": "╬▣",
+      "meaning": "earth"
     },
     "15": {
-      "form": "mumuem",
-      "glyph": "▒◈",
-      "meaning": "hunt"
-    },
-    "16": {
-      "form": "emsior",
-      "glyph": "⌖▣",
-      "meaning": "language"
-    },
-    "17": {
-      "form": "orq'",
-      "glyph": "╬╬",
+      "form": "q'hoq'",
+      "glyph": "ᚠ◆",
       "meaning": "medicine"
     },
+    "16": {
+      "form": "siho",
+      "glyph": "▒▒",
+      "meaning": "temple"
+    },
+    "17": {
+      "form": "emta",
+      "glyph": "✦▣",
+      "meaning": "deer"
+    },
     "18": {
-      "form": "homu",
-      "glyph": "ᚠ✺",
+      "form": "ormuka",
+      "glyph": "◆◆",
       "meaning": "war"
     },
     "19": {
-      "form": "orzu",
-      "glyph": "∴▒",
+      "form": "sizuem",
+      "glyph": "╬▒",
       "meaning": "song"
     },
     "20": {
-      "form": "siorzu",
-      "glyph": "◈▒",
-      "meaning": "memory"
+      "form": "muzu",
+      "glyph": "∴◐",
+      "meaning": "archive"
     },
     "21": {
-      "form": "tahomu",
-      "glyph": "ᚠᚠ",
-      "meaning": "sky"
-    },
-    "22": {
-      "form": "muka",
-      "glyph": "✦╬",
-      "meaning": "spear"
-    },
-    "23": {
-      "form": "orta",
-      "glyph": "∴◐",
-      "meaning": "deer"
-    },
-    "24": {
-      "form": "zuhozu",
-      "glyph": "▦◆",
+      "form": "kanaor",
+      "glyph": "⌖∴",
       "meaning": "machine"
     },
-    "25": {
-      "form": "nanasi",
-      "glyph": "✦▣",
+    "22": {
+      "form": "rikasi",
+      "glyph": "▒◆",
       "meaning": "seed"
     },
-    "26": {
-      "form": "leta",
-      "glyph": "◈◈",
-      "meaning": "leader"
+    "23": {
+      "form": "leleq'",
+      "glyph": "◈✦",
+      "meaning": "water"
     },
-    "27": {
-      "form": "q'zu",
-      "glyph": "◐▦",
+    "24": {
+      "form": "orle",
+      "glyph": "▣▦",
+      "meaning": "clock"
+    },
+    "25": {
+      "form": "leka",
+      "glyph": "◈▣",
+      "meaning": "fire"
+    },
+    "26": {
+      "form": "lezu",
+      "glyph": "ᚠ✦",
       "meaning": "gate"
     },
+    "27": {
+      "form": "nari",
+      "glyph": "▒∴",
+      "meaning": "light"
+    },
     "28": {
-      "form": "zuemta",
-      "glyph": "◈▦",
-      "meaning": "stone"
+      "form": "zuri",
+      "glyph": "✺ᚠ",
+      "meaning": "memory"
     },
     "29": {
-      "form": "kaem",
-      "glyph": "▦◐",
-      "meaning": "star"
+      "form": "zusi",
+      "glyph": "◐◐",
+      "meaning": "plague"
     }
   },
   "ruins": [
     {
       "id": 0,
-      "description": "A cramped workshop cluttered with rusted [machines] and fragments of inscribed plates."
+      "description": "A vast, silent chamber. A crumbling [altar] stands in the center; strange glyphs cover the northern wall."
     }
   ],
   "artifacts": [
     {
       "id": 0,
-      "type": "tablet",
+      "type": "log_scroll",
       "location": 0,
       "inscription": [
-        19,
-        9,
-        26
+        13,
+        21
       ]
     }
   ]

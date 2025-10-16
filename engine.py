@@ -13,8 +13,8 @@ def generate_lexicon(templates, n=30):
     """
     phonemes = templates["phonemes"]
     glyph_radicals = templates["glyph_radicals"]
-    meanings = templates["meanings"]
-
+    # Make a copy of the meanings list to avoid modifying the original template data
+    meanings = list(templates["meanings"])
     random.shuffle(meanings)
 
     lexicon = {}
@@ -94,6 +94,10 @@ def new_world(seed=None):
         json.dump(world, f, indent=2, ensure_ascii=False)
 
     return seed
+
+def recreate_world(seed):
+    """Recreates a world from a specific seed."""
+    return new_world(seed)
 
 if __name__ == "__main__":
     generated_seed = new_world()
