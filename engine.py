@@ -47,6 +47,11 @@ def choose_grammar(templates):
     """Randomly selects a grammar system from the templates."""
     return random.choice(templates["grammar_options"])
 
+def load_world(path="world.json"):
+    """Loads a world state from a JSON file."""
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
 def new_world(seed=None):
     """
     Generates a new world state, including lexicon, grammar, and artifacts.
@@ -94,6 +99,16 @@ def new_world(seed=None):
         json.dump(world, f, indent=2, ensure_ascii=False)
 
     return seed
+
+def save_progress(save, path="save.json"):
+    """Saves the current game state to a JSON file."""
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(save, f, indent=2, ensure_ascii=False)
+
+def load_progress(path="save.json"):
+    """Loads a saved game state from a JSON file."""
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
 def recreate_world(seed):
     """Recreates a world from a specific seed."""
